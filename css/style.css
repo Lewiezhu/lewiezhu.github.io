@@ -1,8 +1,66 @@
-
-main {
-  color: red;
+body {
+  background-color: whitesmoke;
 }
 
-nav {
-  font-family: Arial, Helvetica, sans-serif;
+h1 {
+  color: navy;
+  margin-left: 20px;
 }
+
+.topnav {
+  background-color: #2b6777 ;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #52ab98;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #52ab98;
+  color: white;
+
+}
+
+.question {
+font-size: 20px;
+
+}
+
+.answer {
+  font-size: 14px;
+  
+  }
+
+  .asidemenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+  }
+  .asidemenu a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .asidemenu a:hover {
+    background-color: #fad390;
+    color: #fff;
+  }
+
+  
