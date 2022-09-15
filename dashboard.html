@@ -10,38 +10,17 @@
 
 </head>
 <body>
-  <Main>
         <nav>
           <div class="topnav">
-            <a class="active" href="index.html">homepage</a>
-            <a href="profile.html">my profile</a> 
-            <a href="dashboard.html">dashboard</a> 
-            <a href="faq.html">faq</a> 
-            <a href="blog.html">blog</a> 
+            <a href="index.html">Home</a>
+            <a href="profile.html">Profile</a> 
+            <a class="active" href="dashboard.html">Dashboard</a> 
+            <a href="faq.html">FAQ</a> 
+            <a href="blog.html">Blog</a> 
+          </div>
         </nav>
 
-    <head>
-      <title> My dashboard</title> 
-      <style>
-        table{
-          border: 1px solid black 
-        }
-        td {
-          border: 1px solid black
-        }
-        thead{
-          background-color: turquoise;
-          font-size: 18px;
-        }
-        passed {
-          background-color: green;
-        }
-        failed {
-          background-color: red;
-        }
-      </style>
-    </head>
-    <body>
+    <Main>
       <h1>My dashboard</h1>
       <table>
         <thead>
@@ -59,47 +38,47 @@
             <td>Program- & Career Orientation (PCO)</td>
             <td>2,5</td>
             <td> Assessment website</td>
-            <td class=""passed></td>
+            <td class="passed">6</td>
           </tr>
           <tr>  
             <!--Quarter 1-->
             <td>Computer Science basics</td>
             <td>5</td>
             <td>Written Knowledge Test</td>
-            <td></td>
+            <td class="unknown"></td>
           </tr>
           <tr>  
-            <!--Quarter 1-->
+
             <td>Programming Basics</td>
             <td>5</td>
             <td>Case Study Exam</td>
-            <td class="failed"></td>
+            <td class="failed">3</td>
           </tr>
           <tr>  
-            <!--Quarter 1-->
+
             <td>IT Personality Project Week 1</td>
             <td>1.25</td>
             <td>Portfolio</td>
-            <td class="failed"></td>
+            <td class="unknown"></td>
           </tr>
           <tr>  
-            <!--Quarter 1-->
+
             <td>IT Personality 1 </td>
             <td>1.25</td>
             <td>Portfolio</td>
-            <td class="failed"></td>
+            <td class="unknown"></td>
           </tr>
             <!--Quarter 2-->
           <tr>  
             <td rowspan="2">2</td>
-            <td rowspan="2">Object-Oriented programming(</td>
+            <td rowspan="2">Object-Oriented programming</td>
             <td rowspan="2">10</td>
             <td>Presentation</td>
-            <td class="failed"></td>
+            <td class="unknown"></td>
           </tr>
           <tr>  
             <td>Case study exam</td>
-            <td class="failed"></td>
+            <td class="unknown"></td>
           </tr>
             <!--Quarter 3-->
             <tr>  
@@ -107,24 +86,21 @@
               <td>Framework Development 1</td>
               <td>5</td>
               <td>Case study exam</td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
             <tr>  
-              <!--Quarter 3-->
               <td  rowspan="3">Framework Project 1</td>
               <td rowspan="3">7.5</td>
               <td>Criterium based interview</td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
             <tr>  
-              <!--Quarter 3-->
               <td>Assignment</td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
             <tr>  
-              <!--Quarter 3-->
               <td>Case study exam </td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
               <!--Quarter 4-->
             <tr>  
@@ -132,46 +108,57 @@
               <td rowspan="3">Framework Project 2</td>
               <td rowspan="3">10</td>
               <td>final delivery </td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
             <tr>  
               <td>Report of acceptance tests and optional assessments </td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
             <tr>  
               <td>IT Development portfolio </td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
             <tr>  
               <td>IT Personality International week</td>
               <td>1.25</td>
               <td>Portfolio</td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
             <tr>  
               <td>IT Personality 2</td>
               <td>1.25</td>
               <td>Portfolio</td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
             <tr>  
               <td rowspan="2">Personal Professional Development: Exploration</td>
               <td rowspan="2">12.5</td>
               <td>English Test</td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
             <tr>  
               <td>Criterium focused interview</td>
-              <td class="failed"></td>
+              <td class="unknown"></td>
             </tr>
           <!--Progression bar-->
           <tr>
-            <td colspan="4" style="text-align:left">Study progress<progress value = "5" max = "45"></td> 
-            <td style="text-align:center">NBSA boundary</td>
+            <td>Current EC</td>
+            <td colspan="3"><progress id="current" value="0" max="60"> </progress></td>
+            <td>0</td>
           </tr>
+          <tr>
+            <td>NBSA</td>
+            <td colspan="3"><progress id="nbsa" value="45" max="60"> 0 </progress></td> 
+            <td>45</td> 
+          </tr>  
+          <tr>
+            <td>propaedeutic</td>
+            <td colspan="3"><progress id="propaedeutic" value="60" max="60"> </progress></td>
+            <td>60</td>
+          </tr>   
         </tbody>
       </table>
-    </body>
+      <img src="rss/hz.png" atl="hz logo">
     
 </Main>
 </body>
